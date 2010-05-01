@@ -2,17 +2,17 @@
 html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym {border:0;font-variant:normal;}sup {vertical-align:text-top;}sub {vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
 
 body {
-  background: #000 url(/images/night_sky.jpg) -10% 0 repeat-x;
-  color: #d8d8d8;
+  color: #4e4e4e;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #5fd20e;
+  color: #3086a0;
 }
 a:hover {
-  background-color: #5fd20e;
-  color: #000;
+  background-color: #3086a0;
+  color: #fff;
+  text-decoration: none;
 }
 
 .clear:after {
@@ -25,7 +25,6 @@ a:hover {
 }
 
 #page {
-  background: url(/images/stars.png) 45% 0 repeat-x;
   margin: 0 auto;
   width: 60em;
   padding: 2em 2em 2em 3.33%;
@@ -33,22 +32,19 @@ a:hover {
   position: relative;
 }
 #page h1 {
-  width: 32em;
-  height: 5em;
-  background: url(/images/nicolas_sanguinetti.png) no-repeat;
-  text-indent: -9999em;
+  height: 1.25em;
+  font: 4em/0.25 Georgia;
 }
 
 .section {
   margin: 1.5em 22em 1.5em 0;
-  background-color: #000;
   opacity: 0.9;
 }
 .section h2 {
   width: auto;
   height: auto;
   background: none;
-  border-bottom: 1px solid #d8d8d8;
+  border-bottom: 1px solid #a0a0a0;
   font: bold 2em/1.5 "Lucida Grande", "Lucida Unicode", sans-serif;
   margin-bottom: .75em;
   text-transform: lowercase;
@@ -113,13 +109,9 @@ a:hover {
 /* blue */
 #around-the-net li a.github          { background-color: #309bd1; }
 #around-the-net li a.github:hover    { background-color: #11557a; }
-#around-the-net li a.delicious       { background-color: #309bd1; }
-#around-the-net li a.delicious:hover { background-color: #11557a; }
 
 /* green */
-#around-the-net li a.lastfm          { background-color: #5fd20e; }
-#around-the-net li a.lastfm:hover    { background-color: #4d980a; }
-#around-the-net li a.linkedin        { background-color: #5fd20e; }
+#around-the-net li a.linkedin        { background-color: #5fb00e; }
 #around-the-net li a.linkedin:hover  { background-color: #4d980a; }
 
 /* pink */
@@ -154,11 +146,12 @@ a:hover {
   right: 31em;
   text-align: right;
   padding: 0 .5em;
+  color: #fff;
 }
 #get-in-touch dt.email  { background-color: #309bd1; }
 #get-in-touch dt.skype  { background-color: #fc9027; }
 #get-in-touch dt.jabber { background-color: #ed1556; }
-#get-in-touch dt.mobile { background-color: #5fd20e; }
+#get-in-touch dt.mobile { background-color: #5fb00e; }
 
 #get-in-touch dd {
   height: 2em;
