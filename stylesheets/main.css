@@ -33,7 +33,8 @@ a:hover {
 }
 #page h1 {
   height: 1.25em;
-  font: 4em/0.25 Georgia;
+  font: 4em/0.25 "Palatino Linotype", Georgia, serif;
+  color: #000;
 }
 
 .section {
@@ -45,23 +46,14 @@ a:hover {
   height: auto;
   background: none;
   border-bottom: 1px solid #a0a0a0;
-  font: bold 2em/1.5 "Lucida Grande", "Lucida Unicode", sans-serif;
+  font: bold 2em/1.5 "Palatino Linotype", Georgia, serif;
   margin-bottom: .75em;
-  text-transform: lowercase;
-}
-.section h2:before {
-  content: "‣ ";
-  position: absolute;
-  margin-left: -.65em;
+  color: #000;
 }
 
 /*
  * Open source
  */
-#open-source h2 {
-  color: #309bd1;
-  border-bottom-color: #309bd1;
-}
 #open-source ul {
   margin: 1.5em 0;
 }
@@ -78,11 +70,6 @@ a:hover {
 /*
  * Around the net
  */
-#around-the-net h2 {
-  color: #ed1556;
-  border-bottom-color: #ed1556;
-}
-
 #around-the-net li {
   float: left;
   margin: .5em 1em;
@@ -133,11 +120,6 @@ a:hover {
 /*
  * Get in touch
  */
-#get-in-touch h2 {
-  color: #fc9027;
-  border-bottom-color: #fc9027;
-}
-
 #get-in-touch dl {
   position: relative;
 }
