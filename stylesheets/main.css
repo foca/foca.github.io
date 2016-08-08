@@ -72,7 +72,7 @@ a:hover {
  */
 #around-the-net li {
   float: left;
-  margin: .5em 1em;
+  margin: .5em;
 }
 
 #around-the-net li em, #around-the-net li a, #around-the-net li span {
